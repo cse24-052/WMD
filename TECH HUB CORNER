@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Hub Corner | Computer Technical Support</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+  
+    <div class="loader-container" id="loader">
+        <div class="loader-logo">
+            <i class="fas fa-laptop-code"></i>
+            <h1><span class="highlight">Tech Hub</span> Corner</h1>
+        </div>
+        <div class="loader">
+            <div class="loader-inner"></div>
+            <div class="loader-inner"></div>
+            <div class="loader-inner"></div>
+        </div>
+        <p class="loader-text">Loading your tech solutions...</p>
+    </div>
+      <div id="content" style="display:none;">
+  
+    
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Tech Hub</span> Corner</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section id="services" class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <i class="fas fa-laptop-code fa-3x"></i>
+            <h3>Hardware Repair</h3>
+            <p>Diagnose and fix hardware issues including screen replacements, battery issues, and component failures.</p>
+            <a href="hardware-repair.html" class="service-link">View Details & Pricing →</a>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-shield-virus fa-3x"></i>
+            <h3>Virus Removal</h3>
+            <p>Remove malware, spyware, and viruses to protect your data and restore system performance.</p> 
+            <a href="virus-removal.html" class="service-link">View Details & Pricing →</a>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-network-wired fa-3x"></i>
+            <h3>Network Setup</h3>
+            <p>Home and office network installation, configuration, and troubleshooting.</p>
+            <a href="network-setup.html" class="service-link">View Details & Pricing →</a>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-database fa-3x"></i>
+            <h3>Data Recovery</h3>
+            <p>Recover lost or deleted files from hard drives, SSDs, USB drives, and other storage media.</p>
+            <a href="data-recovery.html" class="service-link">View Details & Pricing →</a>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-cloud fa-3x"></i>
+            <h3>Cloud Services</h3>
+            <p>Setup and migration to cloud storage solutions like Google Drive, Dropbox, and OneDrive.</p>
+            <a href="cloud-services.html" class="service-link">View Details & Pricing →</a>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-headset fa-3x"></i>
+            <h3>Remote Support</h3>
+            <p>Get instant help from our technicians through secure remote desktop connections.</p>
+            <a href="remote-support.html" class="service-link">View Details & Pricing →</a>
+        </div>
+    </div>
+</section>
+    
+    <section id="hero">
+        <div class="container">
+            <h1>Professional Computer Support</h1>
+            <p>Fast, reliable technical support for all your computer needs. Remote and on-site services available.</p>
+            <button class="btn" onclick="location.href='#contact'">Get Help Now</button>
+        </div>
+    </section>
+
+    <section id="channel">
+    <div class="container">
+        <h2>Subscribe To Our Channel</h2>
+        <form id="channel-form" action="/subscribe" method="POST">
+            <label for="email" class="sr-only">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email..." required>
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+    
+    <section id="services" class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-laptop-code fa-3x"></i>
+                <h3>Hardware Repair</h3>
+                <p>Diagnose and fix hardware issues including screen replacements, battery issues, and component failures.</p>
+               <a href="hardware-repair.html" class="service-link">View Details & Pricing →</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-shield-virus fa-3x"></i>
+                <h3>Virus Removal</h3>
+                <p>Remove malware, spyware, and viruses to protect your data and restore system performance.</p> 
+              <a href="virus-removal.html" class="service-link">View Details & Pricing →</a>
+              
+            </div>
+            <div class="service-card">
+                <i class="fas fa-network-wired fa-3x"></i>
+                <h3>Network Setup</h3>
+                <p>Home and office network installation, configuration, and troubleshooting.</p>
+              <a href="Network Setup.html" class="service-link">View Details & Pricing →</a>
+              
+            </div>
+            
+    <section id="about" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">About Tech Hub Corner</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Tech Hub Corner has been providing top-quality computer technical support since 2024. Our team of certified technicians is dedicated to solving your technology problems quickly and efficiently.Tech Hub Corner was founded by TAONA PERCY MUTONGERWA ,a self taught full stack developer and IT technician.He spent time crafting the best and clean code website.</p>
+                    <p>We pride ourselves on honest, transparent service with no hidden fees. Whether you're a home user or a small business, we have the expertise to keep your technology running smoothly.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check-circle"></i> Certified technicians</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 emergency support</li>
+                        <li><i class="fas fa-check-circle"></i> No fix, no fee policy</li>
+                        <li><i class="fas fa-check-circle"></i> Affordable pricing</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Tech support team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Tech Hub Corner saved me when my laptop crashed right before an important deadline. They recovered all my files and had me back up and running in no time!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="percy J.">
+                        <h4>percy J.</h4>
+                        <p> Small Business Owner</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"I've used several tech support services before, but none were as professional and knowledgeable as Tech Hub Corner. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Mutongerwa T.">
+                        <h4>Mutongerwa T.</h4>
+                        <p> Home User</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Their remote support is amazing. Fixed my network issues without me having to leave my house. Great service at a reasonable price."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Taona M.">
+                        <h4>Taona M.</h4>
+                        <p> Remote Worker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> ZEERUST ROAD, TLOKWENG KFC, GABORONE BW</p>
+                    <p><i class="fas fa-phone"></i> (+267) 75729860</p>
+                    <p><i class="fas fa-envelope"></i> support@techhubcorner.com</p>
+                    <p><i class="fas fa-clock"></i> Monday-Friday: 9am-6pm<br>Saturday: 10am-4pm<br>Emergency: 24/7</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="hardware">Hardware Repair</option>
+                                <option value="virus">Virus Removal</option>
+                                <option value="network">Network Setup</option>
+                                <option value="data">Data Recovery</option>
+                                <option value="cloud">Cloud Services</option>
+                                <option value="remote">Remote Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Describe your issue..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tech Hub Corner</h3>
+                    <p>Your trusted partner for all computer technical support needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Hardware Repair</a></li>
+                        <li><a href="#">Virus Removal</a></li>
+                        <li><a href="#">Data Recovery</a></li>
+                        <li><a href="#">Remote Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Tech Hub Corner. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <body data-theme="light">
+    <script src="script.js"></script>
+</body>
