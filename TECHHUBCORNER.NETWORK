@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Setup Services - Tech Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .service-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .service-header i {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .service-header h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .service-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .service-details, .pricing {
+            flex: 1;
+            min-width: 300px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        h3 {
+            color: #3498db;
+            margin: 20px 0 10px;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .price-table th, .price-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .price-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        
+        .price-table tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #27ae60;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .procedure {
+            margin-top: 30px;
+        }
+        
+        .step {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        
+        .step-number {
+            background-color: #3498db;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex-grow: 1;
+        }
+        
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="service-header">
+            <i class="fas fa-network-wired fa-3x"></i>
+            <h1>Network Setup Services</h1>
+            <p>Professional installation and configuration for home and business networks</p>
+        </div>
+        
+        <div class="service-content">
+            <div class="service-details">
+                <h2>Service Details</h2>
+                <p>We design and implement reliable wired and wireless networks tailored to your specific needs, whether for a small home or large office environment.</p>
+                
+                <h3>Our Network Services Include:</h3>
+                <ul>
+                    <li>Home WiFi network setup and optimization</li>
+                    <li>Office network infrastructure installation</li>
+                    <li>Router and switch configuration</li>
+                    <li>Mesh network systems</li>
+                    <li>Network security and firewall setup</li>
+                    <li>VPN configuration for remote access</li>
+                    <li>Network troubleshooting and diagnostics</li>
+                    <li>Wired Ethernet cabling</li>
+                    <li>Network segmentation for security</li>
+                </ul>
+                
+                <div class="procedure">
+                    <h3>Our Setup Process:</h3>
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <strong>Site Survey</strong> - We assess your space and requirements
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <strong>Equipment Selection</strong> - We recommend appropriate hardware
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <strong>Physical Installation</strong> - We install routers, switches, and cabling
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <strong>Configuration</strong> - We optimize settings for performance and security
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <strong>Testing</strong> - We verify connectivity and speed throughout the space
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <strong>Documentation</strong> - We provide network maps and credentials
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing">
+                <h2>Pricing</h2>
+                <p>Network setup costs vary based on the size and complexity of your installation.</p>
+                
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Price Range</th>
+                            <th>Includes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Basic Home WiFi</td>
+                            <td class="price">P1500-P2500</td>
+                            <td>Single router setup with optimal placement</td>
+                        </tr>
+                        <tr>
+                            <td>Whole Home Mesh</td>
+                            <td class="price">P3000-P5000</td>
+                            <td>Multi-node system for complete coverage</td>
+                        </tr>
+                        <tr>
+                            <td>Small Office Network</td>
+                            <td class="price">P6000-P10000</td>
+                            <td>Up to 10 devices with basic security</td>
+                        </tr>
+                        <tr>
+                            <td>Business Network</td>
+                            <td class="price">P15000+</td>
+                            <td>Enterprise-grade equipment with VLANs</td>
+                        </tr>
+                        <tr>
+                            <td>Ethernet Wiring</td>
+                            <td class="price">P1000/drop</td>
+                            <td>Per wired connection (materials extra)</td>
+                        </tr>
+                        <tr>
+                            <td>Network Audit</td>
+                            <td class="price">P2000</td>
+                            <td>Security and performance evaluation</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Service Notes</h3>
+                <p>Hardware costs are additional. We offer 60 days of remote support with all network installations.</p>
+            </div>
+        </div>
+        
+        <div class="cta">
+            <a href="contact.html" class="cta-button">Schedule Network Setup</a>
+        </div>
+        
+        <a href="index.html#services" class="back-link">← Back to All Services</a>
+    </div>
+</body>
+</html>
